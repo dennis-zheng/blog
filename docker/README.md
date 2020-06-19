@@ -5,7 +5,7 @@
 
 
 # 1 install
-more detail, please check the website.
+more detail, please check the website.  
 https://docs.docker.com/engine/install/centos/
 
 start docker, systemctl start docker
