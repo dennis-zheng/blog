@@ -25,7 +25,7 @@ docker images
 	
 ## 2.2 container
 build and start nginx container, docker run -it -p 7777:80 nginx:latest /bin/bash  
-![markdown](https://github.com/dennis-zheng/blog/blob/master/docker/doc/run_nginx_contaimer.png)
+![markdown](https://github.com/dennis-zheng/blog/blob/master/docker/doc/run_nginx_container.png)
 
 start nginx, service nginx start  
 ![markdown](https://github.com/dennis-zheng/blog/blob/master/docker/doc/start_nginx.png)
@@ -44,8 +44,8 @@ docker run -it -p 8888:80 ubuntu:16.04 /bin/bash
 ![markdown](https://github.com/dennis-zheng/blog/blob/master/docker/doc/run_ubuntu1604.png)
 		
 ## 3.2 setup app
-apt-get update
-apt-get install nginx
+apt-get update  
+apt-get install nginx  
 service nginx start  
 ![markdown](https://github.com/dennis-zheng/blog/blob/master/docker/doc/setup_start_nginx.png)
 
